@@ -1,14 +1,9 @@
-/**
- * @author Luuxis
- * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
- */
-
 'use strict';
 
 import { logger, database, changePanel } from '../utils.js';
 
 const { Launch, Status } = require('minecraft-java-core');
-const { ipcRenderer } = require('electron');
+const { ipcRenderer, shell } = require('electron');
 const launch = new Launch();
 const pkg = require('../package.json');
 
@@ -26,7 +21,7 @@ class Home {
         this.initBtn();
     }
 
-    async initNews() {
+    initNews() {
         let news = document.querySelector('.news-list');
         if (this.news) {
             if (!this.news.length) {
@@ -46,7 +41,7 @@ class Home {
                 news.appendChild(blockNews);
             } else {
                 for (let News of this.news) {
-                    let date = await this.getdate(News.publish_date)
+                    let date = this.getdate(News.publish_date)
                     let blockNews = document.createElement('div');
                     blockNews.classList.add('news-block');
                     blockNews.innerHTML = `
@@ -196,9 +191,35 @@ class Home {
         document.querySelector('.settings-btn').addEventListener('click', () => {
             changePanel('settings');
         });
+
+        document.querySelector('.Discord').addEventListener('click', () => {
+            this.openlink('https://discord.gg/UXyXyfdR5A');
+        })
+        document.querySelector('.Twitter').addEventListener('click', () => {
+            this.openlink('https://twitter.com/Soupax46');
+        })
+        document.querySelector('.Github').addEventListener('click', () => {
+            this.openlink('https://github.com/Soupax');
+        })
+        document.querySelector('.Youtube').addEventListener('click', () => {
+            this.openlink('https://www.youtube.com/channel/UCSLTbQkU3ZWBApxyf2GNi8w');
+        })
+        document.querySelector('.Instagram').addEventListener('click', () => {
+            this.openlink('https://www.instagram.com/soupax46/');
+        })
+        document.querySelector('.Twitch').addEventListener('click', () => {
+            this.openlink('https://www.twitch.tv/choupax_');
+        })
+        document.querySelector('.Website').addEventListener('click', () => {
+            this.openlink('http://soupaxlauncher.go.yo.fr');
+        })
     }
 
-    async getdate(e) {
+    openlink(url) {
+        shell.openExternal(url);
+    }
+
+    getdate(e) {
         let date = new Date(e)
         let year = date.getFullYear()
         let month = date.getMonth() + 1
