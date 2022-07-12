@@ -4,7 +4,7 @@
     "version": "1.1.0",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
-    "author": "Soupax, Luuxis",
+    "author": "Soupax, Luuxis, Fefedu973",
     "url": "http://soupaxlauncher.go.yo.fr",
     "engines": {
         "node": "16.x.x"
