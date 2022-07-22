@@ -17,9 +17,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Soupax_" },
-            { "message": "J'aime manger", "author": "Soupax_" },
-            { "message": "Ouaf", "author": "Soupax_" }
+            { "message": "SpaceCrown une vie dans l'espace'", "author": "Taki" },
+            { "message": "404 SpaceCrown Not Founds", "author": "Taki" },
+            { "message": "Il était une fois Xcub", "author": "Taki" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
