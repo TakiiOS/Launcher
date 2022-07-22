@@ -4,7 +4,7 @@
     "version": "1.1.2",
     "description": "SpaceCrown",
     "main": "src/app.js",
-    "author": "SpaceCrown Compa",
+    "author": "SpaceCrown Company",
     "url": "http://launcher.minecrown.fr",
     "engines": {
         "node": "16.x.x"
