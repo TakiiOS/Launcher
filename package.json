@@ -1,11 +1,11 @@
 {
-    "name": "Soupax-Launcher",
-    "preductname": "Soupax Launcher",
+    "name": "SpaceCrown",
+    "preductname": "SpaceCrown",
     "version": "1.1.2",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "description": "SpaceCrown",
     "main": "src/app.js",
-    "author": "Soupax, Luuxis, Fefedu973",
-    "url": "http://soupaxlauncher.go.yo.fr",
+    "author": "SpaceCrown Compa",
+    "url": "http://launcher.minecrown.fr",
     "engines": {
         "node": "16.x.x"
     },
@@ -31,6 +31,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Soupax/Soupax-Launcher-Final.git"
+        "url": "git+https://github.com/TakiiOS/Launcher.git"
     }
 }

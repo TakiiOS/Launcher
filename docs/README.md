@@ -21,8 +21,8 @@
 **Cloner et installer les dépendances**
 
 ```console
-> git clone https://github.com/luuxis/Selvania-Launcher.git
-> cd Selvania-Launcher
+> git clone https://github.com/TakiiOS/Launcher.git
+> cd Launcher
 > npm install
 ```
 ---
@@ -61,6 +61,10 @@
 - Authentification crack.
 
 - Accepte toutes versions de Minecraft 1.0 > 1.19.x (Forge, Fabric etc).
+
+- Annimated Background
+
+- Background Music
 
 ---
 **<p align="center">Configurer votre launcher.</p>**
