@@ -196,10 +196,10 @@ class Home {
             this.openlink('https://discord.gg/UXyXyfdR5A');
         })
         document.querySelector('.Twitter').addEventListener('click', () => {
-            this.openlink('https://twitter.com/Soupax46');
+            this.openlink('https://twitter.com/Offtaki');
         })
         document.querySelector('.Github').addEventListener('click', () => {
-            this.openlink('https://github.com/Soupax');
+            this.openlink('https://github.com/Takiios');
         })
         document.querySelector('.Youtube').addEventListener('click', () => {
             this.openlink('https://www.youtube.com/channel/UCSLTbQkU3ZWBApxyf2GNi8w');
@@ -211,7 +211,7 @@ class Home {
             this.openlink('https://www.twitch.tv/choupax_');
         })
         document.querySelector('.Website').addEventListener('click', () => {
-            this.openlink('http://soupaxlauncher.go.yo.fr');
+            this.openlink('https://www.minecrown.fr');
         })
     }
 
