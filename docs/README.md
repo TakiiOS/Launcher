@@ -1,11 +1,3 @@
----
-
-**conditions d'utilisation**
-- Pour utiliser le code, vous devez faire un fork du projet.
-- Pour utiliser le code, votre code doit tout le temps être public.
-
----
-
 **Cloner et installer les dépendances**
 
 ```console
@@ -42,17 +34,11 @@
 
 - Statut serveur complet.
 
-- Authentification mojang.
-
 - Authentification Microsoft.
-
-- Authentification crack.
 
 - Accepte toutes versions de Minecraft 1.0 > 1.19.x (Forge, Fabric etc).
 
 - Annimated Background
-
-- Background Music
 
 ---
 
